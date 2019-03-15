@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body align="center">
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="films.html">Films</a> |
+      <a href="books.html">Books</a> |
+      <a href="musics.html">Music</a> |
+      <a href="usefullinks.html">Useful Links</a> |
+      <a href="contactme.html">Contact Me</a> |
+      <a href="registration.html">Register</a>
+    </nav>
+
+    <form class="" action="index.html" method="post">
+
+      <label for="Fullname">Name(Middle Name),Surname</label>
+      <input type="text" name="Fullname" value="" >
+      <br>
+
+      <label for="Password">Password</label>
+      <input type="password" name="Password" value="">
+      <br>
+
+      <label for="Email">Email</label>
+      <input type="email" name="Email" value="">
+      <br>
+
+      <label for="BirthDate">Day of Birth</label>
+      <input type="date" name="BirthDate" value="" max="2018-12-31">
+      <br>
+
+      <label for="Gender">Gender</label>
+      <select class="" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+      </select>
+      <br>
+
+      <label for="AboutMe">About me</label>
+      <textarea name="AboutMe" rows="3" cols="30"></textarea>
+      <br>
+
+      <label for="Photo">Upload your photo</label>
+      <input type="file" name="" value="">
+      <br>
+
+      <p>Mark your interests</p>
+        <input type="checkbox" name="Interest" value="">Music
+        <input type="checkbox" name="Interest" value="">Arts <br>
+        <input type="checkbox" name="Interest" value="">Sports
+        <input type="checkbox" name="Interest" value="">Books <br>
+        <input type="checkbox" name="Interest" value="">Sights
+        <input type="checkbox" name="Interest" value="">Technology
+        <br>
+
+        <div class="Buttons">
+          <button type="submit" name="Submit">Submit</button>
+          <br>
+          <button type="reset" name="Reset">Reset</button>
+        </div>
+    </form>
+
+  </body>
+</html>
