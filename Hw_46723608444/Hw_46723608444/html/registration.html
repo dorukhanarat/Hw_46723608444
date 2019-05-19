@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/general.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="films.html">Films</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="musics.html">Musics</a></li>
+            <li><a href="usefullinks.html">Useful Links</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="game.html">Game</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <form action="index.html" method="post">
+      <div class="form-group">
+        <label for="Fullname">Name(Middle Name),Surname:</label>
+        <input type="text" class="form-control" id="Fullname">
+      </div>
+
+      <div class="form-group">
+        <label for="Password">Password:</label>
+        <input type="password" class="form-control" id="Password">
+      </div>
+
+      <div class="form-group">
+        <label for="Email">Email address:</label>
+        <input type="email" class="form-control" id="Email">
+      </div>
+
+      <div class="form-group">
+        <label for="BirthDate">Day of Birth</label>
+        <input type="date" class="form-control" id="BirthDate">
+      </div>
+
+      <div class="form-group">
+        <label for="Gender">Gender</label>
+        <select class="form-control" id="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="Message">About me</label>
+        <textarea name="AboutMe" class="form-control" cols="70"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="Photo">Upload Your Photo</label>
+          <input type="file" class:"form-control" id:"Photo">
+      </div>
+
+      <p>Mark Your Interests</p>
+
+      <div class="checkbox">
+          <label><input type="checkbox">Music</label>
+      </div>
+      <div class="checkbox">
+          <label><input type="checkbox">Arts</label>
+      </div>
+      <div class="checkbox">
+          <label><input type="checkbox">Sports</label>
+      </div>
+      <div class="checkbox">
+          <label><input type="checkbox">Books</label>
+      </div>
+      <div class="checkbox">
+          <label><input type="checkbox">Sighst</label>
+      </div>
+      <div class="checkbox">
+          <label><input type="checkbox">Technology</label>
+      </div>
+        <button type="submit" name="Submit" class="button">Submit</button>
+        <br>
+        <button type="reset" name="Reset" class="button">Reset</button>
+    </form>
+  </body>
+</html>
